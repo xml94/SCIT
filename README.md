@@ -53,7 +53,7 @@ sh $code $date $type $style $epoch $dir
 ```
 sh scripts_tomato/fids.sh
 ```
-You can change the values in fids.sh and compute_fid.sh
+You can change the values in scripts_tomato/fids.sh and scripts_tomato/compute_fid.sh
 
 
 ## to do data augmentation
