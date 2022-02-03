@@ -60,5 +60,6 @@ You can change the values in fids.sh and compute_fid.sh
 you can use data_aug.py
 
 ## Reference
-* The codes are borrowed heavily from pytorch cyclegan: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
-* You can also search help from pytorch cyclegan
+* [Pytorch cyclegan](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+    * The codes are borrowed heavily from pytorch cyclegan
+    * You can also search help from pytorch cyclegan
