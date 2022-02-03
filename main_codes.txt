@@ -1,0 +1,101 @@
+# Main Codes
+├── copy_fake_img.py
+├── data
+│   ├── aligned_dataset.py
+│   ├── base_data_loader.py
+│   ├── base_dataset.py
+│   ├── colorization_dataset.py
+│   ├── image_folder.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── single_dataset.py
+│   ├── template_dataset.py
+│   ├── tomato_dataset.py
+│   ├── tomato_seg_dataset.py
+│   └── unaligned_dataset.py
+├── docs
+│   ├── datasets.md
+│   ├── Dockerfile
+│   ├── docker.md
+│   ├── overview.md
+│   ├── qa.md
+│   ├── README_es.md
+│   └── tips.md
+├── environment.yml
+├── extract_fake_img.py
+├── extract_real_img.py
+├── fid_score.py
+├── imgs
+│   ├── edges2cats.jpg
+│   └── horse2zebra.gif
+├── inception.py
+├── LICENSE
+├── models
+│   ├── base_model.py
+│   ├── base_model.pyc
+│   ├── colorization_model.py
+│   ├── cycle_gan_model.py
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── networks.py
+│   ├── networks_scit.py
+│   ├── networks_scit_seg.py
+│   ├── networks_scit_seg_style.py
+│   ├── pix2pix_model.py
+│   ├── __pycache__
+│   ├── scit_model.py
+│   ├── scit_seg_model.py
+│   ├── scit_seg_style_model.py
+│   ├── template_model.py
+│   └── test_model.py
+├── options
+│   ├── base_options.py
+│   ├── base_options.pyc
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── __pycache__
+│   ├── test_options.py
+│   ├── test_options.pyc
+│   ├── train_options.py
+│   └── train_options.pyc
+├── requirements.txt
+├── save
+│   ├── checkpoints
+│   ├── datasets
+│   └── only_aug_clf
+├── scripts_data
+│   ├── make_clf_aug_base.sh
+│   ├── make_clf_aug.sh
+│   ├── make_clf_only_aug_base.sh
+│   ├── make_clf_only_aug.sh
+│   ├── make_ins_obj_aug_base.sh
+│   └── make_ins_obj_aug.sh
+├── scripts_tomato
+│   ├── compute_fid.sh
+│   ├── fids.sh
+│   ├── test_clf_base.sh
+│   ├── test_clf_multi.sh
+│   ├── test_cyclegan_seg.sh
+│   ├── test_cyclegan.sh
+│   ├── test_ins_base.sh
+│   ├── test_ins_multi.sh
+│   ├── test_ins.sh
+│   ├── test_scit_seg.sh
+│   ├── test.sh
+│   ├── train_cyclegan_seg.sh
+│   ├── train_cyclegan.sh
+│   ├── train_scit_seg_newDis.sh
+│   ├── train_scit_seg.sh
+│   └── train.sh
+├── test.py
+├── train.py
+└── util
+    ├── get_data.py
+    ├── html.py
+    ├── image_pool.py
+    ├── __init__.py
+    ├── __init__.pyc
+    ├── __pycache__
+    ├── util.py
+    ├── util.pyc
+    └── visualizer.py
