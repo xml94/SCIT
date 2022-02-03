@@ -37,7 +37,7 @@ sh ./scripts_tomato/train.sh health2powder 4
 ```
 
 * visualize your data: IP:port 
-  *  such as http://113.198.60.xx:8090/
+  *  such as http://113.198.xx.xx:8090/
 
 ## Test
 ```
