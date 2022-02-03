@@ -15,6 +15,7 @@
         ├── 000473_mask0_bd11.jpg
 ```
 Please notice the alignment of the file names
+Please see the dataset examples for health and powder in datasets/tomato_seg
 
 ## Train
 * must utilze the mask or instance segmentation
