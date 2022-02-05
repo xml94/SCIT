@@ -61,7 +61,7 @@ sh scripts_tomato/fids.sh
 You can change the values in scripts_tomato/fids.sh and scripts_tomato/compute_fid.sh
 
 
-## to do data augmentation
+## To do data augmentation
 you can use data_aug.py
 
 ## Reference
