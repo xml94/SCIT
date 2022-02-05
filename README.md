@@ -1,3 +1,5 @@
+## Paper info
+[Web in Frontiers in Plant Science](https://www.frontiersin.org/articles/10.3389/fpls.2021.773142/abstract)
 
 ## Prapare the dataset
 
@@ -16,6 +18,8 @@
 ```
 Please notice the alignment of the file names
 Please see the dataset examples for health and powder in datasets/tomato_seg
+
+* If you want to use the data format in CycleGAN, Please change --dataset_mode when your training and testing. Please see the original CycleGAN code about the details.
 
 ## Train
 * must utilze the mask or instance segmentation
@@ -64,3 +68,4 @@ you can use data_aug.py
 * [Pytorch cyclegan](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
     * The codes are borrowed heavily from pytorch cyclegan
     * You can also search help from pytorch cyclegan
+## To cite this paper
