@@ -2,11 +2,11 @@
 [Web in Frontiers in Plant Science](https://www.frontiersin.org/articles/10.3389/fpls.2021.773142/abstract)
 
 ## The main code work in the paper
-'''
+Please refer to the codes to see the model utilized in the paper.
+```
 models/scit_seg_model.py
 models/networks_scit_seg.py
-
-'''
+```
 
 ## Prapare the dataset
 
