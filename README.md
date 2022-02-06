@@ -69,6 +69,11 @@ sh scripts_tomato/fids.sh
 ```
 You can change the values in scripts_tomato/fids.sh and scripts_tomato/compute_fid.sh
 
+## Others
+If you have other questions, beyond of codes and even your projects, please fell free to contact with me with by email.
+* My email: xml@jbnu.ac.kr
+* Please use the keyword for the email to highlight your emial: SCIT
+* You can also use chinese in email.
 
 ## To do data augmentation
 you can use data_aug.py
