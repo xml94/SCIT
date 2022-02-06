@@ -8,6 +8,8 @@ models/scit_seg_model.py
 models/networks_scit_seg.py
 ```
 
+Our contribution not includes the dataset and we are not allowed to publish the dataset since it is covered in serveral projects.
+
 ## Prapare the dataset
 
 * The data level is:
@@ -29,8 +31,8 @@ Please see the dataset examples for health and powder in datasets/tomato_seg
 * If you want to use the data format in CycleGAN, Please change --dataset_mode when your training and testing. Please refer to the original CycleGAN code about the details.
 
 ## Train
-* must utilze the mask or instance segmentation
-* the main file: 
+* Must utilze the mask or instance segmentation
+* The main file: 
 ```
 scripts_tomato/train.sh
 scripts_tomato/train_scit_seg.sh
@@ -47,7 +49,7 @@ sh ./scripts_tomato/train.sh health2powder 2
 sh ./scripts_tomato/train.sh health2powder 4
 ```
 
-* visualize your data: IP:port 
+* Visualize your data: IP:port 
   *  such as http://113.198.xx.xx:8090/
 
 ## Test
