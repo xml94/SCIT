@@ -1,6 +1,13 @@
 ## Paper info
 [Web in Frontiers in Plant Science](https://www.frontiersin.org/articles/10.3389/fpls.2021.773142/abstract)
 
+## The main code work in the paper
+'''
+models/scit_seg_model.py
+models/networks_scit_seg.py
+
+'''
+
 ## Prapare the dataset
 
 * The data level is:
@@ -16,10 +23,10 @@
         ├── 000473_mask0_bd10.jpg
         ├── 000473_mask0_bd11.jpg
 ```
-Please notice the alignment of the file names
+Please notice the alignment of the file names.
 Please see the dataset examples for health and powder in datasets/tomato_seg
 
-* If you want to use the data format in CycleGAN, Please change --dataset_mode when your training and testing. Please see the original CycleGAN code about the details.
+* If you want to use the data format in CycleGAN, Please change --dataset_mode when your training and testing. Please refer to the original CycleGAN code about the details.
 
 ## Train
 * must utilze the mask or instance segmentation
