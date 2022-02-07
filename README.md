@@ -83,3 +83,15 @@ you can use data_aug.py
     * The codes are borrowed heavily from pytorch cyclegan
     * You can also search help from pytorch cyclegan
 ## To cite this paper
+```
+@article{xustyle,
+AUTHOR={Xu, Mingle and Yoon, Sook and Fuentes, Alvaro and Yang, Jucheng and Park, Dong Sun},
+TITLE={Style-Consistent Image Translation: A Novel Data Augmentation Paradigm to Improve Plant Disease Recognition},
+JOURNAL={Frontiers in Plant Science},
+VOLUME={12},
+YEAR={2022},
+URL={https://www.frontiersin.org/article/10.3389/fpls.2021.773142},       
+DOI={10.3389/fpls.2021.773142},
+ISSN={1664-462X},
+}
+```
