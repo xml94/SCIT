@@ -1,6 +1,3 @@
-## Paper info
-[Web in Frontiers in Plant Science](https://www.frontiersin.org/articles/10.3389/fpls.2021.773142/abstract)
-
 ## The main code work in the paper
 Please refer to the codes to see the model utilized in the paper.
 ```
@@ -68,6 +65,14 @@ sh $code $date $type $style $epoch $dir
 sh scripts_tomato/fids.sh
 ```
 You can change the values in scripts_tomato/fids.sh and scripts_tomato/compute_fid.sh
+
+
+## Pretrained model
+Our pretrained model can be downloaded in [Google Driver](https://drive.google.com/file/d/1MTLWWgIxOiUda_fmGnXOecuK0Vu_UU09/view?usp=sharing).
+But be careful that we just train our model in our dataset. 
+If the distribution in your dataset is far from ours, the translated images may be not good. 
+In this case, it is better to retrain your own model in yourself dataset.
+
 
 ## Others
 If you have other questions, beyond of codes and even your projects, please fell free to contact with me with by email.
