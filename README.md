@@ -77,7 +77,7 @@ In this case, it is better to retrain your own model in yourself dataset.
 ## Others
 If you have other questions, beyond of codes and even your projects, please fell free to contact with me with by email.
 * My email: xml@jbnu.ac.kr
-* Please use the keyword for the email to highlight your emial: SCIT
+* Please use the keyword for the email to highlight your email: SCIT
 * You can also use chinese in email.
 
 ## To do data augmentation
